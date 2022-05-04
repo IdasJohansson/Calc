@@ -10,7 +10,7 @@ header{
     height: 20vh;
     font-size: 2rem;
     font-weight: bold;
-    padding-top: 1vh;
+    padding: 30px; 
     border: 2px solid black;
 }
 
