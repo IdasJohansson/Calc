@@ -88,14 +88,15 @@ header{
     margin-right: auto;
   
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 
     text-align: center;
     cursor: pointer;
 }
 
 .test:hover{
-    background-color: yellow;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     transition: 0.5s ease-in-out;
 }
 
