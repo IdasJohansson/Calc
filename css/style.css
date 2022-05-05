@@ -128,3 +128,7 @@ h1{
     transition: 0.5s ease-in-out;
 }
 
+#demo{
+    color: white; 
+    font-size: bold;
+}
