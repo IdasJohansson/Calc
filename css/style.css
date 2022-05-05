@@ -1,22 +1,32 @@
 
 body{
-    background-color: rgba(34, 33, 32, 0.867);
+    background-color: rgba(59, 58, 57, 0.867);
     font-family: 'Courier New', Courier, monospace;
     color: black; 
 }
 
 header{
-    text-align: center;
-    height: 20vh;
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: bold;
-    padding: 30px; 
-    border: 0px solid black;
+    padding: 10px; 
+    border: 2px solid black;
+    height: 6em;
+    position: relative
 }
+
+h1{
+    margin: 0; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
 
 .container{
     max-width: 400px;
-    margin:5vh auto 10vh auto; /* ändrar marginalen överst och sätter höger och vänster som auto så att det blir centrerat*/
+    margin:5vh auto 5vh auto; /* ändrar marginalen överst och sätter höger och vänster som auto så att det blir centrerat*/
     box-shadow: 0px 0px 43px 17px black;
 }
 
@@ -71,7 +81,7 @@ header{
 
 #animation{
     max-width: 400px;
-    margin:10vh auto 10vh auto; /* ändrar marginalen överst och sätter höger och vänster som auto så att det blir centrerat*/
+    margin:5vh auto 5vh auto; /* ändrar marginalen överst och sätter höger och vänster som auto så att det blir centrerat*/
 
 }
 
